@@ -24,6 +24,8 @@ for w in sorted(dct, key=dct.get, reverse=True):
     i+=1
 #1st index is id 2nd is the color index
 #dimness directly proportional to color index
+print("Ids : Color index")
+print("Note: some stars were repeated therefore changes were made")
 print(l[0])
 print(l[3])
 print(l[6])
