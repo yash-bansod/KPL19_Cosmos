@@ -19,5 +19,6 @@ for i,id in enumerate(id):
     else:
         insideGal.append(id)
 print(insideGal)
+print("Plot saved as 'plot.png'")
 plt.scatter(reqmod,ratio)
 plt.savefig("plot.png")
