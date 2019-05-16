@@ -18,6 +18,7 @@ for i,id in enumerate(id):
         reqmod.append(distmod[i])
     else:
         insideGal.append(id)
+print("Objects inside galaxy:")
 print(insideGal)
 print("Plot saved as 'plot.png'")
 plt.scatter(reqmod,ratio)
